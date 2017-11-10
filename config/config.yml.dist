@@ -1,0 +1,16 @@
+---
+schedule: "0 */1 * * * *"
+
+netatmo:
+  client_id: "client_id"
+  client_secret: "client_secret"
+  username: "email"
+  password: "password"
+
+influx:
+  address: "https://localhost:8086"
+  username: "netatmo"
+  password: "password"
+  database: "netatmo"
+  precision: "s"
+  metric_prefix: "netatmo"
